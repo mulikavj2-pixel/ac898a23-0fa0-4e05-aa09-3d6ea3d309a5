@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/NavbarStyleFullscreen';
@@ -36,7 +36,6 @@ export default function LandingPage() {
             { name: "Contact", id: "contact" },
             { name: "FAQ", id: "faq" }
           ]}
-          logoText="AutoMax"
           brandName="AutoMax"
           bottomLeftText="Premium Vehicles"
           bottomRightText="sales@automax.com"
